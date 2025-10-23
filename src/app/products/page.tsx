@@ -195,10 +195,12 @@ export default function ProductsPage() {
                 <div className="relative">
                   <Image
                     src={product.image}
-                    alt={product.name}
+                    alt={`${product.name} - ${product.category} available at Classics Electronics Eldoret`}
                     width={400}
                     height={300}
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   {product.originalPrice && (
                     <span className="absolute top-3 left-3 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-semibold shadow-lg">

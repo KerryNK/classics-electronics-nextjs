@@ -1,4 +1,17 @@
+import { Metadata } from 'next'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'About Us - Classics Electronics Eldoret | Your Trusted Electronics Store',
+  description: 'Learn about Classics Electronics, Eldoret\'s trusted electronics store. Quality smartphones, laptops, TVs with genuine warranty. Visit our showroom or order online.',
+  keywords: 'about Classics Electronics, electronics store Eldoret, trusted electronics dealer Kenya, smartphone laptop TV store Eldoret',
+  openGraph: {
+    title: 'About Classics Electronics - Eldoret\'s Trusted Electronics Store',
+    description: 'Your trusted partner for quality electronics in Eldoret. Genuine products, expert service, and customer satisfaction guaranteed.',
+    type: 'website',
+    locale: 'en_KE',
+  },
+}
 
 export default function AboutPage() {
   return (

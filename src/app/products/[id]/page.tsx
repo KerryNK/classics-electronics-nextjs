@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
+import { Metadata } from 'next'
 import products from '@/data/products.json'
 
 interface ProductPageProps {
@@ -13,6 +14,45 @@ export function generateStaticParams() {
   return products.map((product) => ({
     id: product.id.toString(),
   }))
+}
+
+export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
+  const product = products.find(p => p.id === parseInt(params.id))
+  
+  if (!product) {
+    return {
+      title: 'Product Not Found - Classics Electronics Eldoret',
+      description: 'The requested product was not found. Browse our collection of smartphones, laptops, TVs and electronics in Eldoret, Kenya.'
+    }
+  }
+
+  const savings = product.originalPrice ? ` - Save KSh ${(product.originalPrice - product.price).toLocaleString()}` : ''
+  
+  return {
+    title: `${product.name}${savings} - Classics Electronics Eldoret`,
+    description: `Buy ${product.name} in Eldoret at KSh ${product.price.toLocaleString()}. ${product.description} Genuine warranty, fast delivery, M-Pesa payment accepted.`,
+    keywords: `${product.name}, ${product.category}, electronics Eldoret, ${product.name.split(' ')[0]}, buy ${product.category.toLowerCase()} Kenya`,
+    openGraph: {
+      title: `${product.name} - Best Price in Eldoret`,
+      description: `${product.description} Available at Classics Electronics Eldoret for KSh ${product.price.toLocaleString()}`,
+      images: [
+        {
+          url: product.image,
+          width: 600,
+          height: 600,
+          alt: product.name,
+        },
+      ],
+      type: 'website',
+      locale: 'en_KE',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${product.name} - Classics Electronics Eldoret`,
+      description: `${product.description} KSh ${product.price.toLocaleString()}`,
+      images: [product.image],
+    },
+  }
 }
 
 export default function ProductPage({ params }: ProductPageProps) {
@@ -102,10 +142,12 @@ export default function ProductPage({ params }: ProductPageProps) {
             <div className="relative">
               <Image
                 src={product.image}
-                alt={product.name}
+                alt={`${product.name} - ${product.category} available at Classics Electronics Eldoret with warranty`}
                 width={600}
                 height={600}
                 className="w-full rounded-xl shadow-soft border border-gray-200"
+                priority
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
               {product.originalPrice && (
                 <span className="absolute top-4 left-4 bg-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">

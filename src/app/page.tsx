@@ -172,30 +172,124 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Local Trust Banner */}
+      <section className="bg-primary-600 text-white py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left">
+            <div className="flex items-center space-x-4 mb-2 md:mb-0">
+              <span className="flex items-center">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                </svg>
+                📍 Located in Eldoret - Walk-in Showroom Available
+              </span>
+            </div>
+            <div className="flex items-center space-x-6 text-sm">
+              <span>💳 M-Pesa • Card • Cash on Delivery</span>
+              <span>🚚 Delivery across Kenya</span>
+              <a href="https://wa.me/254799245140" className="bg-accent hover:bg-green-600 px-4 py-2 rounded-lg font-medium transition-colors">
+                WhatsApp: +254 799 245 140
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Trust & Benefits Section */}
+      <section className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Classics Electronics?</h2>
+            <div className="inline-flex items-center bg-green-50 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+              ⭐ 15+ Happy Customers This Week • 4.8/5 Rating
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-200 hover:shadow-card transition-shadow">
+              <div className="text-4xl mb-4">🏪</div>
+              <h3 className="font-semibold text-gray-900 mb-2">Physical Store in Eldoret</h3>
+              <p className="text-gray-600 text-sm">Visit our showroom at Eldoret town center. See, touch, and test products before buying.</p>
+            </div>
+            <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-200 hover:shadow-card transition-shadow">
+              <div className="text-4xl mb-4">💳</div>
+              <h3 className="font-semibold text-gray-900 mb-2">Flexible Payment Options</h3>
+              <p className="text-gray-600 text-sm">M-Pesa, Airtel Money, bank transfer, cash on delivery - choose what works for you.</p>
+            </div>
+            <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-200 hover:shadow-card transition-shadow">
+              <div className="text-4xl mb-4">🚚</div>
+              <h3 className="font-semibold text-gray-900 mb-2">Fast Local Delivery</h3>
+              <p className="text-gray-600 text-sm">Same-day delivery within Eldoret (KSh 200), next-day to Nakuru, Kisumu, Nairobi.</p>
+            </div>
+            <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-200 hover:shadow-card transition-shadow">
+              <div className="text-4xl mb-4">🛡️</div>
+              <h3 className="font-semibold text-gray-900 mb-2">Genuine Warranty</h3>
+              <p className="text-gray-600 text-sm">All products come with manufacturer warranty, 7-day returns, and our technical support.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Customer Testimonials */}
       <section className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Why Choose Classics Electronics?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center p-6 bg-white rounded-lg shadow-md">
-              <div className="text-4xl mb-4">🏪</div>
-              <h3 className="font-semibold text-gray-800 mb-2">Local Store in Eldoret</h3>
-              <p className="text-gray-600 text-sm">Visit our physical store for hands-on experience before buying</p>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
+            <p className="text-gray-600 text-lg">Real reviews from satisfied customers in Eldoret and beyond</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-xl shadow-card border border-gray-100">
+              <div className="flex items-center mb-4">
+                <div className="flex text-yellow-400">
+                  ⭐⭐⭐⭐⭐
+                </div>
+                <span className="ml-2 text-sm text-gray-600">5/5</span>
+              </div>
+              <p className="text-gray-700 mb-4">"Bought a Samsung phone from Classics Electronics. Great price, genuine product, and fast delivery to my home in Eldoret. Highly recommend!"</p>
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center">
+                  <span className="text-primary-600 font-semibold">MK</span>
+                </div>
+                <div className="ml-3">
+                  <p className="font-semibold text-gray-900">Mary K.</p>
+                  <p className="text-sm text-gray-600">Eldoret Customer</p>
+                </div>
+              </div>
             </div>
-            <div className="text-center p-6 bg-white rounded-lg shadow-md">
-              <div className="text-4xl mb-4">💳</div>
-              <h3 className="font-semibold text-gray-800 mb-2">Flexible Payment</h3>
-              <p className="text-gray-600 text-sm">M-Pesa, cash, bank transfer - pay your way</p>
+            <div className="bg-white p-6 rounded-xl shadow-card border border-gray-100">
+              <div className="flex items-center mb-4">
+                <div className="flex text-yellow-400">
+                  ⭐⭐⭐⭐⭐
+                </div>
+                <span className="ml-2 text-sm text-gray-600">5/5</span>
+              </div>
+              <p className="text-gray-700 mb-4">"Excellent service! Visited their store, tested the laptop, and got a great deal. The staff is knowledgeable and helpful."</p>
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center">
+                  <span className="text-primary-600 font-semibold">JM</span>
+                </div>
+                <div className="ml-3">
+                  <p className="font-semibold text-gray-900">John M.</p>
+                  <p className="text-sm text-gray-600">University Student</p>
+                </div>
+              </div>
             </div>
-            <div className="text-center p-6 bg-white rounded-lg shadow-md">
-              <div className="text-4xl mb-4">🚚</div>
-              <h3 className="font-semibold text-gray-800 mb-2">Fast Delivery</h3>
-              <p className="text-gray-600 text-sm">Same-day delivery within Eldoret, next-day to nearby areas</p>
-            </div>
-            <div className="text-center p-6 bg-white rounded-lg shadow-md">
-              <div className="text-4xl mb-4">🛡️</div>
-              <h3 className="font-semibold text-gray-800 mb-2">Genuine Products</h3>
-              <p className="text-gray-600 text-sm">All products come with manufacturer warranty & 7-day returns</p>
+            <div className="bg-white p-6 rounded-xl shadow-card border border-gray-100">
+              <div className="flex items-center mb-4">
+                <div className="flex text-yellow-400">
+                  ⭐⭐⭐⭐⭐
+                </div>
+                <span className="ml-2 text-sm text-gray-600">5/5</span>
+              </div>
+              <p className="text-gray-700 mb-4">"Fast WhatsApp response, competitive prices, and genuine products. My go-to electronics store in Eldoret!"</p>
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center">
+                  <span className="text-primary-600 font-semibold">SK</span>
+                </div>
+                <div className="ml-3">
+                  <p className="font-semibold text-gray-900">Sarah K.</p>
+                  <p className="text-sm text-gray-600">Business Owner</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
