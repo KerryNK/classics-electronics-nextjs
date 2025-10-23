@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy A15",
+    "price": 28000,
+    "originalPrice": 32000,
+    "category": "Smartphones",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop",
+    "description": "Affordable Samsung Galaxy A15 with great camera, long battery life, and smooth performance for everyday use.",
+    "specifications": "Display: 6.5\" Super AMOLED\nRAM: 4GB\nStorage: 128GB\nCamera: 50MP + 5MP + 2MP\nBattery: 5000mAh\nOS: Android 14",
+    "featured": true,
+    "availability": "in_stock"
+  },
+  {
+    "id": 2,
+    "name": "Tecno Spark 20",
+    "price": 18500,
+    "category": "Smartphones",
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500&h=500&fit=crop",
+    "description": "Popular Tecno Spark 20 with excellent value for money, perfect for students and professionals.",
+    "specifications": "Display: 6.6\" HD+\nRAM: 4GB\nStorage: 128GB\nCamera: 48MP + AI Lens\nBattery: 5000mAh\nFingerprint: Side-mounted",
+    "featured": true,
+    "availability": "in_stock"
+  },
+  {
+    "id": 3,
+    "name": "HP 250 G9 Laptop",
+    "price": 55000,
+    "originalPrice": 65000,
+    "category": "Laptops",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop",
+    "description": "Reliable HP laptop ideal for business, school, and everyday computing tasks with Windows 11.",
+    "specifications": "Processor: Intel Core i3-1215U\nRAM: 8GB DDR4\nStorage: 256GB SSD\nDisplay: 15.6\" HD\nOS: Windows 11\nWarranty: 1 Year",
+    "featured": true,
+    "availability": "in_stock"
+  },
+  {
+    "id": 4,
+    "name": "TCL 32\" Smart TV",
+    "price": 22000,
+    "category": "Televisions",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&h=500&fit=crop",
+    "description": "Affordable TCL 32-inch Smart TV with Android TV, Netflix, YouTube, and other streaming apps built-in.",
+    "specifications": "Size: 32 inches\nResolution: HD Ready\nSmart TV: Android TV\nConnectivity: Wi-Fi, 2x HDMI, USB\nApps: Netflix, YouTube, Prime Video",
+    "featured": true,
+    "availability": "in_stock"
+  },
+  {
+    "id": 5,
+    "name": "Oraimo Bluetooth Speaker",
+    "price": 3500,
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=500&fit=crop",
+    "description": "Compact Oraimo Bluetooth speaker with clear sound, perfect for home, office, or outdoor use.",
+    "specifications": "Battery: 8 hours\nConnectivity: Bluetooth 5.0\nFeatures: Hands-free calls, FM Radio\nPower: 10W\nWaterproof: IPX5",
+    "featured": true,
+    "availability": "in_stock"
+  },
+  {
+    "id": 6,
+    "name": "Oraimo Wireless Earbuds",
+    "price": 4500,
+    "originalPrice": 6000,
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&h=500&fit=crop",
+    "description": "Affordable wireless earbuds with good sound quality and comfortable fit for daily use.",
+    "specifications": "Battery: 5 hours + 20 hours case\nConnectivity: Bluetooth 5.0\nFeatures: Touch controls, Auto-pairing\nCharging: USB-C case",
+    "featured": false,
+    "availability": "in_stock"
+  },
+  {
+    "id": 7,
+    "name": "Infinix Hot 40i",
+    "price": 16000,
+    "category": "Smartphones",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop",
+    "description": "Budget-friendly Infinix smartphone with large display and decent performance for basic smartphone needs.",
+    "specifications": "Display: 6.7\" HD+\nRAM: 4GB\nStorage: 128GB\nCamera: 32MP + AI Lens\nBattery: 5000mAh\nOS: Android 13",
+    "featured": false,
+    "availability": "in_stock"
+  },
+  {
+    "id": 8,
+    "name": "Lenovo IdeaPad 1",
+    "price": 42000,
+    "category": "Laptops",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop",
+    "description": "Entry-level Lenovo laptop perfect for students, with lightweight design and essential features.",
+    "specifications": "Processor: AMD Ryzen 3\nRAM: 4GB\nStorage: 256GB SSD\nDisplay: 15.6\" HD\nOS: Windows 11\nWeight: 1.6kg",
+    "featured": false,
+    "availability": "in_stock"
+  },
+  {
+    "id": 9,
+    "name": "Vitron 24\" LED TV",
+    "price": 14500,
+    "category": "Televisions",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&h=500&fit=crop",
+    "description": "Compact 24-inch LED TV perfect for bedrooms, kitchens, or small spaces with clear picture quality.",
+    "specifications": "Size: 24 inches\nResolution: HD Ready\nConnectivity: 2x HDMI, USB, AV\nFeatures: Energy saving, Sleep timer\nWarranty: 1 Year",
+    "featured": false,
+    "availability": "in_stock"
+  },
+  {
+    "id": 10,
+    "name": "Phone Chargers & Cables",
+    "price": 800,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500&h=500&fit=crop",
+    "description": "High-quality phone chargers and USB cables compatible with most smartphones. Fast charging support.",
+    "specifications": "Types: USB-C, Micro USB, Lightning\nLength: 1 meter\nFeatures: Fast charging, Durable cable\nCompatibility: Universal",
+    "featured": false,
+    "availability": "in_stock"
+  },
+  {
+    "id": 11,
+    "name": "Phone Cases & Screen Protectors",
+    "price": 1200,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=500&h=500&fit=crop",
+    "description": "Protective phone cases and tempered glass screen protectors for various smartphone models.",
+    "specifications": "Materials: TPU, Silicone, Tempered Glass\nProtection: Drop protection, Scratch resistant\nCompatibility: Samsung, Tecno, Infinix, iPhone",
+    "featured": false,
+    "availability": "in_stock"
+  },
+  {
+    "id": 12,
+    "name": "Power Bank 10000mAh",
+    "price": 2800,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1609592806787-3d0b4c7d6c8a?w=500&h=500&fit=crop",
+    "description": "Portable power bank with 10000mAh capacity, perfect for keeping your devices charged on the go.",
+    "specifications": "Capacity: 10000mAh\nPorts: 2x USB-A, 1x USB-C\nFeatures: LED indicator, Fast charging\nCompatibility: Universal\nCharging time: 4-5 hours",
+    "featured": false,
+    "availability": "in_stock"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "description": "Latest smartphones and mobile devices"
+  },
+  {
+    "id": 2,
+    "name": "Laptops",
+    "slug": "laptops",
+    "description": "Laptops and notebooks for work and gaming"
+  },
+  {
+    "id": 3,
+    "name": "Televisions",
+    "slug": "televisions",
+    "description": "Smart TVs and entertainment systems"
+  },
+  {
+    "id": 4,
+    "name": "Audio",
+    "slug": "audio",
+    "description": "Headphones, speakers, and audio equipment"
+  },
+  {
+    "id": 5,
+    "name": "Accessories",
+    "slug": "accessories",
+    "description": "Phone cases, chargers, and other accessories"
+  },
+  {
+    "id": 6,
+    "name": "Gaming",
+    "slug": "gaming",
+    "description": "Gaming consoles and accessories"
+  }
+]
